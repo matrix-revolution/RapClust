@@ -241,7 +241,7 @@ def flattenClusters(infile, outfile):
                 for t in toks:
                     ofile.write("{}\t{}\n".format(cname, t))
 
-def filterGraph(expDict, netfile, ofile, auxDir):
+def filterGraph(expDict, netfile, ofile, auxDir): # change this code - hypothesis testing
     import os
     import pandas as pd
     import math
